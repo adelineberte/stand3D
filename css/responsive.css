@@ -1,0 +1,145 @@
+/* ----------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+/* /* /* /* /* /* /* /* /* RESPONSIVE /* /* /* /* /* /* /* /* /* /* 
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-----------------------------------------------------------------*/
+
+/* MENU HAMBURGER */
+
+@media (max-width: 800px) {
+    .sidebar { width: 100%; display: block;} 
+    .logo-resp { height: 60px; top: 5%;left: 39%;}
+}
+
+
+/* INDEX  */
+
+
+
+/* FIRST SECTION */
+
+@media (max-width: 500px) {
+    .first-section-left { top: 20%; }
+    .first-section-title { margin: 30px 0px 0px 0px;}
+    .first-section-title h1{ font-size: 32px; font-weight: 400; line-height: 40px; }
+    .first-section-txt p{ font-size: 14px; line-height: 30px; }
+    .first-section-btn-contact { margin-top: 15px;}
+    .first-section-btn-products-txt { font-size: 13px;}
+    .first-section-btn-contact-txt { font-size: 13px;}
+}
+
+/* SECOND SECTION */
+@media (max-width: 500px) {
+    .second-section .presentation-img { display: none;}
+    .second-section-left { position: relative; margin-top: 550px;}
+    .second-section-right { top: -100%; left: 5%; margin-right: 20px; margin-top: -140px;}
+    .second-section-title h3 { font-size: 20px; width: 96%;}
+    .second-section-card-bloc { width: 350px; height: 250px; margin: 60px 0px 0px 0px;}
+    .second-section-card-bloc img { width: 200px;}
+    .todo-list { left: 28%; top: 0%;}
+    .todo { padding: 1em 1em 0.4em 16%;}
+    .todo__text { font-size: 14px;}
+    .todo__state:checked ~ .todo__text { font-size: 14px;}
+}
+
+/* THIRD SECTION */
+@media (max-width: 500px) {
+    .third-section { text-align: left; padding-top: 80px;}
+    .third-section-card { padding-top: 60px;}
+    .third-section-title h4{ 
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+        color: #2F80ED;
+    }
+    .third-section-title h2 { 
+        text-transform: uppercase;
+        font-family: "Raleway";
+        font-size: 20px;
+        color: #333;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 33px;
+    }
+    .third-section-title p {
+        width: 100%;    
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        color: #525f7f;
+    }
+    #wrapper { border-radius: 5px;}
+    #wrapper #left-side ul li p { display: none;}
+    .icon.big { display: none;}
+    #right-side #first h1, #right-side #second h1, #right-side #third h1, #right-side #fourth h1 { 
+        font-size: 23px;
+        padding-left:30px;
+    }
+    #right-side #first p.desktop, #right-side #second p.desktop, #right-side #third p.desktop, #right-side #fourth p.desktop {
+        display: none;
+    }
+    #right-side #first p.responsive, #right-side #second p.responsive, #right-side #third p.responsive, #right-side #fourth p.responsive {
+        display: block;
+        width: 100%; 
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #333;
+    }
+    #right-side #second.active {margin-top: 160px;}
+    #right-side #third.active { margin-top: 290px;}
+    #right-side #third.active h1 { padding-left: 0px; width: 200px;}
+    #right-side #fourth.active { margin-top: 420px;}
+    #right-side #fourth.active h1 { padding-left: 10px;}
+}
+
+
+/* FOURTH SECTION */
+@media (max-width: 500px) {
+    .fourth-section { padding-top: 0px; padding-bottom: 70px;}
+    .fourth-section-right { position: relative; left: 0%; top: 0%;}
+    .fourth-section-left { width: 100%; position: absolute; top: 90%;}
+    .fourth-section-title h1 { font-size: 20px;}
+    .fourth-section-txt p { font-size: 16px; padding-right: 120px; padding-bottom: 20px;}
+    .fourth-section-btn {display:none;}
+    .fourth-section-btn-contact { margin-top: 15px;}
+    .fourth-section-btn-contact p { font-size: 13px;}
+    .fourth-section-card { 
+        width: 92%; 
+        padding: 50px 0px 50px 120px; 
+    }
+    .fourth-section-card:hover {margin-left: 0px; transition: none; border: none; box-shadow:0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);}
+    .fourth-section-card p { line-height: 1.5;}
+    .fourth-section-card h4 { font-size: 20px;}
+}
+
+/* SIXTH SECTION */
+@media (max-width: 500px) {
+    .sixth-section { padding-top: 1150px;}
+    .sixth-section-article { width: 100%; height: 200px;}
+    .sixth-section-article p { padding: 0px 20px 0px 30px; font-size: 14px; line-height: 24px;}
+    .sixth-section-article h4 { padding: 20px 40px 10px 30px; font-size: 16px;}
+    .sixth-section-article.article1 { margin-bottom: 20px;}
+    .sixth-section-article.article2 { margin-left: 0px;}
+}
+
+@media (max-width: 500px) {
+    /* .seventh-section {top: 4350px;} */
+    .seventh-section-title h4 { font-size: 25px;}
+    .seventh-section-title p { font-size: 20px; line-height: 40px; margin-bottom: 60px;}
+    .seventh-section-card { left: 75%; top: 82%;width: 0px; height: 0px; transform: rotate(-90deg); margin-left: 20px;}
+    .seventh-section-card h4 { display: none;}
+    .seventh-section-card p { margin-left: -330px;}
+    .seventh-section-footer2 { padding-top: 60px;}
+    .seventh-section-footer-card { margin-right: 20px; padding-bottom: 40px;}
+    .seventh-section-footer-card h4 { font-size: 17px;}
+    .seventh-section-footer-card a { font-size: 13px;}
+}
+
+/* CONTACT */
+
+@media (max-width: 500px) {
+    .section-contact-title { margin-top: 50px;}
+}
