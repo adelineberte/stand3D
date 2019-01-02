@@ -49,7 +49,7 @@ From July to September 2018, I held the position of <b>UI - UX designer</b> with
 Many thanks to <b>3A Developpement</b> for their trust. Having ideas, good and mostly bad, was the only thing that matters. This experience with them has exceeded many of my personal and professional expectations. Once again, thank you.
 
 * Stand3d's team
-* Justine Di Meo
+* [Justine Di Meo](https://github.com/justinedimeo)
 * Mojitos ( true love ) 
 
 ---
